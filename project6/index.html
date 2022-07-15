@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Site</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style6.css">
+
+    <script src="https://kit.fontawesome.com/f20147e22c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- header starts -->
+
+    <header>
+
+        <div class="fas fa-bars" id="menu-bar"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header ends here and login form starts -->
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email ">
+            <input type="password" class="box" placeholder="enter your password ">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have an account?<a href="#">regester now</a></p>
+        </form>
+    </div>
+
+
+
+    <section class="home" id="home">
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="vid1.mp4"></span>
+            <span class="vid-btn" data-src="vid1.mp4"></span>
+
+        </div>
+
+        <div class="video-container">
+            <video src="vid1.mp4" id="vedio-slider" loop autoplay muted></video>
+        </div>
+        <div class="content">
+
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us,adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+    </section>
+
+
+    <!-- book section starts -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/brandpics/airplane.png" alt="">
+                <img src="/brandpics/t2.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h2 class="bookings">BOOKING</h2>
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- packages starts header -->
+
+    <section class="packages" id="packages">
+
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="japan.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">japan</i></h3>
+                    <p>For first time visitors to Japan the main sights most people want to see are Tokyo, Kyoto, Osaka
+                        and Hiroshima. The great thing is that each of these cities is well connected by the shinkansen
+                        or bullet train system and you can travel quickly between cities..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="sedney.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">sedney</i></h3>
+                    <p> Sydney Opera House,Taronga Zoo Sydney , Bondi to Coogee Coastal Walk,Manly Beach,
+                        Australian Museum,
+                        SEA LIFE Sydney Aquarium,
+                        WILD LIFE Sydney Zoo,
+                        Queen Victoria Building and many more</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="canada.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">canada</i></h3>
+                    <p>Abraham Lake. Alberta,
+                        Western Brook Pond. Newfoundland and Labrador,
+                        Bay of Fundy .New Brunswick,
+                        Jasper National Park. Alberta,
+                        Queen Charlotte Islands/Haida Gwaii. British Columbia,
+                        Cavendish Beach. Prince Edward Island,
+                        Banff National Park. Alberta,
+                        Dempster Highway. Yukon and many more.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="dubai.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">dubai</i></h3>
+                    <p>The Burj Khalifa. The Burj Khalifa is for sure THE place to visit in Dubai!
+                        The Dubai Mall,
+                        The Dubai Fountain,
+                        Deira district and its souks,
+                        Atlantis Hotel / The Palm Jumeirah / Aquaventure Waterpark,
+                        Dubai Marina,
+                        The Burj al-Arab and many more</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="mumbai.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">india</i></h3>
+                    <p>Nubra Valley in Ladakh. Nubra Valley -One Of The Most Beautiful Place in India,
+                        Khajjiar in Himachal Pradesh,
+                        Valley of Flowers in Uttarakhand,
+                        Dal Lake in Srinagar,
+                        Munnar in Kerala,
+                        Dudhsagar Falls in Goa,
+                        Yumthang Valley in Sikkim,
+                        Tawang in Arunachal Pradesh and many more.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="egypt.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">egypt</i></h3>
+                    <p>Giza,
+                        Aswan and its islands,
+                        Cruise on the Nile,
+                        Karnak,
+                        Cairo,
+                        Luxor,
+                        Hurghada and the Red Sea,
+                        Sinai , A visit to Egypt cannot be complete without discovering the Sinai Peninsula, its desert
+                        and its extraordinary geology and many more</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="veitnam.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">veitnam</i></h3>
+                    <p>Halong Bay. Halong Bay,
+                        Ho Chi Minh City. Ho Chi Minh City Hall,
+                        Hue. Hue,
+                        Phong Nha-Ke Bang National Park. Phong Nha-Ke Bang National Park,
+                        My Son. Hindu temple ruins at My Son,
+                        Hoi An. Hoi An,
+                        Sapa Countryside. Sapa Countryside,
+                        Hanoi and many more</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- services section starts here -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>It's not down to glitz, glamour, or location; it's down to Customer Service. My favourite hotels are
+                    the ones that have outstanding Customer Service. This is what makes a hotel special. It all starts
+                    with a warm, helpful smile and welcome on arrival.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Choose Safe Food and Drinks When Traveling....
+                    Provider of catering services. The company operates restaurants, cafes, food courts and lounges and
+                    provides in-flight catering services for the domestic travel retail segment in India. It also offers
+                    food and beverage services in various airports.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Tour Guide
+                    Please keep your seatbelts fastened at all times. I ask that you keep your hands inside the train.
+                    As a safety precaution, please stand behind the yellow line. For your own safety, we ask that you
+                    refrain from putting your arms out the window.</p>
+            </div>
+
+
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Know Before You Go: Travel Around the World for a Year...
+                    Are you thinking about going on a long trip around the world, too, but don’t know how to go about
+                    planning such an endeavour? Read the article to find out a few most important things to know before
+                    going on a one-year trip around the world.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Traveling to newer places allows us to relax, refresh and rejuvenate our mind and body. But, with
+                    traveling comes the deadly fear of standing in long queues at airports and waiting for ages to get
+                    rental vehicles. To ease this process and to give you the best possible travel experience, online
+                    travel websites and apps have gained momentum in recent times.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Exciting Adventures Awaits - All There Is To See....
+                    Some examples include backpacking, birdwatching, camping, canoeing, fishing, hiking, horseback
+                    riding, kayaking, safaris, sailing and surfing. Hard adventure travel is riskier and requires more
+                    skills and experience. Examples include caving, rock climbing and trekking.
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- gallery section starrs here -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="im/1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="im/2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="im/3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="im/4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="im/5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="im/6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="im/7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="im/8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Guides to arts and culture, including museums, theaters, and other attractions; Packing tips;
+                        Maps and guides;</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- review section starts here -->
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="client_im/1.jpg" alt="">
+                        <h3>samar batra</h3>
+                        <p>" This was our second PST tour (first one was to Crete). Both tours have been excellent. PST
+                            tour leaders are not only experts in their academic fields but are also masters at making
+                            the tours work smoothly and efficiently. The itineraries are excellent, both in terms of
+                            venues and in terms of the pace of the tour. The choices of accommodations and the dining
+                            locales never disappoint. My wife and I have done many tours with a variety of tour
+                            companies. PST is definitely the best." </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="client_im/2.jpg" alt="">
+                        <h3>rosie</h3>
+                        <p>" This was the first time I had travelled with Peter Sommer Travels. The company specialises
+                            in expert-led cultural and gulet tours in Europe. Group numbers are small, accommodation
+                            comfortable and food excellent. The expert guide who accompanied us was outstanding -
+                            passionate, informative, engaging and entertaining. The itinerary was very well thought out,
+                            combining leisure time with activity and not-to-be-missed opportunities to swim in the
+                            Adriatic sea off the gulet. The client is obviously at the heart of the itinerary planning,
+                            and attention to detail is second to none. I would highly recommend this company to anyone
+                            wanting a fun, relaxed, educational holiday with fine food - they will deliver! "</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="client_im/3.jpg" alt="">
+                        <h3>jhon deo</h3>
+                        <p>" This was our fourth trip with Peter Sommer Travels and it lived up to our very high
+                            expectations. It was a wonderfully organized trip with beautiful cruising and swimming
+                            spots, great hikes, and fascinating lectures on the region and history. The ship was
+                            beautiful, comfortable, and excellently crewed. The guide was wonderfully informed and
+                            participated enthusiastically in all the activities. A shout-out also to the local guides
+                            who each brought their own perspective. Excellent! "</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="client_im/4.jpg" alt="">
+                        <h3>moris riyato</h3>
+                        <p>" The holiday of a life time - our gulet adventure in the Dodecanese Greek Islands was
+                            without a doubt our favourite family trip. The comfort and beauty of the gulet, the
+                            incredibly caring crew, the delicious food, the history we learned from our competent and
+                            friendly leader, along with the stunning beauty of the islands. Swimming in the most
+                            gorgeous coves, kayaking on crystal blue waters, hiking around ruins and into small remote
+                            villages and relaxing on the boat... it was the best trip ever. " </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="client_im/5.jpg" alt="">
+                        <h3>cruse denial</h3>
+                        <p>" Peter Sommer runs a a highly professional organization. From his brochure to drop off at
+                            the airport to fly home his attention to detail and his consideration for his clients is
+                            superb. The archaeologists he uses as guides are erudite but highly personable and have an
+                            ability to turn a pile of stones into a recreation of the lives of the people who lived
+                            there over two millennia ago. Excellent. "</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section starts here -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="/brandpics/con1.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                <input type="submit" class="btn" value="send message">
+
+            </form>
+        </div>
+    </section>
+
+    <!-- brand section  -->
+
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/brandpics/amazon.jfif" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/oyo.png" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/reliance.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/swiggy-logo.png" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/ola.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/insta1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/nike.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/puma.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/r1.png" alt=""></div>
+                <div class="swiper-slide"><img src="/brandpics/oyo.png" alt=""></div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>We are a main online travel organization in India giving a ‘best as far as a class can tell with the objective to be ‘ India ‘s Travel Planner’.
+
+                    Through our site, www.toursite.com, our versatile applications, and our other related stages, recreation, and business voyagers can investigate, explore, analyze costs and book an extensive variety of administrations taking into account their movement needs.
+                    
+                    Since our origin in 2021, in excess of 10000+ clients have utilized at least one of our exhaustive travel-related administrations, which incorporate local and global air ticketing, lodging appointments, homestays, occasion bundles, transport ticketing, rail ticketing, exercises, and subordinate administrations..</p>
+
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <p>Lorem ipsum dolor sit amet Amet non repellendus placeat quasi magnipsa.</p>
+                <a href="#">Chandigarh</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Chennai</a>
+                <a href="#">Hyderabad</a>
+                <a href="#">Lucknow</a>
+                <a href="#">Kolkata</a>
+
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">servivces</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+
+            </div>
+
+            <div class="box">
+                <h3>follow us </h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+
+            </div>
+        </div>
+        <h1 class="credit">created by <span>VIPIN SINGH</span>|all right reserved!</h1>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f20147e22c.js" crossorigin="anonymous"></script>
+
+    <script src="script6.js"></script>
+</body>
+
+</html>
